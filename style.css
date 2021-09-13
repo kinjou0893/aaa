@@ -1,0 +1,171 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    height: 76px;
+    width: 100%;   
+}
+
+.l-header{
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+.l-header img{
+    width: 130px;
+    height:45px;
+    margin-left: 125px;
+    margin-top:15px;
+}
+
+.l-header h1{
+    color: #333333;
+    font-size: 14px;
+    line-height: 22px;
+    margin:35px 0 0 6px ;
+    letter-spacing: 1.5px;
+    font-weight:600;
+}
+.header-btn{
+    margin-left: 458px;
+}
+.header-btn a{
+    display:block;
+    height: 44px;
+    margin-top:17px;
+    margin-bottom: 17px;
+    line-height: 45px;
+    background:#DA6B64;
+    color:#fff;
+    border-radius:25px;
+    width: 320px;
+    text-decoration:none;
+    text-align:center;
+    font-size: 14px;
+    font-weight: lighter;
+    letter-spacing: 0.2em;
+    font-family: "�q���M�m�p�S Pro W3", "Hiragino Kaku Gothic Pro", ���C���I, Meiryo, Osaka, "�l�r �o�S�V�b�N", "MS PGothic", sans-serif;;
+    transition: 0.3s;
+    
+    
+}
+.header-btn a:hover{
+    text-decoration: none;
+    color: white;
+    background-color: #d84940;
+    transition: 0.3s;
+}
+.img-header{
+    background-image: url(isara-image/images105.jpg);
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    
+}
+.header-title{
+ position: absolute;
+ 
+
+}
+.title-a{
+    margin-left: 525px;
+    line-height: 55px;
+    font-size: 27px;
+    font-weight:600;
+    letter-spacing:2.5px;
+    color: #333333;
+    margin-top: 100px;
+}
+.title-b{
+    margin-top: 60px;
+    margin-left: 525px;
+    color: #333333;
+    letter-spacing:1px ;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+.header-title img{
+    margin-left: 530px;
+    height: 105px;
+    width:320px;
+    margin-top: -10px;
+}
+.req-docu{
+    height: 600px;
+    background-color: #EBB94D;
+}
+.req-description{
+    text-align: center;
+}
+
+.req-twenty{
+    font-size: 20px;
+    line-height: 32px;
+    color: white;
+    font-weight:580;
+    font-family:�q���M�m�p�S Pro W3, Hiragino Kaku Gothic Pro, ���C���I, Meiryo, Osaka, �l�r �o�S�V�b�N, MS PGothic, sans-serif;
+    padding-top: 36px;
+    letter-spacing: 0.01em;
+
+}
+.req-zerodocu{
+    font-size: 18px;
+    line-height: 29px;
+    color: #c7254e;
+    font-weight:600;
+    font-family:Menlo;
+    background: white;
+    border-radius: 10px;
+    width: 464px;
+    margin-left: 470px;
+
+}
+.req-description h1 a{
+    display:block;
+    font-size: 27px;
+    color: white;
+    font-weight: 600;
+    width: 1030px;
+    line-height: 100px;
+    background-color: #DA6B64;
+    border-radius: 50px;
+    margin-left: 200px;
+    margin-top:45px;
+    transition: 0.1s;
+
+}
+
+.req-description h1 a:hover{
+    text-decoration: none;
+    color: white;
+    background-color: #d84940;
+    transition: 0.1s;
+}
+.req-semester{
+    margin-top: 72px;
+ 
+
+}
+.semester{
+    font-size: 23px;
+    line-height: 34px;
+    color: white;
+    font-weight:600;
+    margin-top:40px;
+    letter-spacing: 0.1em;
+
+}
+.follow-me{
+    display: flex;
+}
+.sns_circle span{
+    position:absolute;
+    padding:10px;
+    font-size:30px;
+    color:#FFF;/* 文字の色 */
+}
